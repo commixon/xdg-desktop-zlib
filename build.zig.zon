@@ -1,0 +1,13 @@
+.{
+    .name = .xdgdesktop,
+    .version = "0.0.0",
+    .fingerprint = 0x49b80ecab00cc2db, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+    },
+}
